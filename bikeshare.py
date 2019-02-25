@@ -133,7 +133,7 @@ def user_stats(df):
 """Ask the user if they would like to see the first 5 rows and data. If yes, display first 5 rows.  If no, move on."""
 def viewable_df(df):
     while True:
-        raw_data = input('\nWould you like to see the first 5 rows of raw data behind these statistics? Enter yes or no.\n')
+        raw_data = input('\nTo better understand the data behind these statistics, would you like to see the first 5 rows of raw data? Enter yes or no.\n')
         if raw_data.lower() == 'yes':
             print(df.head())
             break
