@@ -21,14 +21,14 @@ def get_filters():
         if month.lower() in months:
             break
         else:
-            print('Please enter city as shown.')
+            print('Please enter month as shown.')
     while True:
         days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
         day = input('Would you like to filter by day of week? If not, enter: all. If you would like data by day, enter: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or Sunday (as shown). ')
         if day.lower() in days:
             break
         else:
-            print('Please enter city as shown.')
+            print('Please enter day as shown.')
 
     print('Great! Let\'s learn more about {}!'.format(city.title()))
 
