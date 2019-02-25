@@ -140,7 +140,7 @@ def viewable_df(df):
         else:
             break
 
-"""Main code block - run each defition as defined above. Then ask user if they would like to restart the program."""
+"""Main code block - run each definition as defined above. Then ask user if they would like to restart the program."""
 def main():
     while True:
         city, month, day = get_filters()
