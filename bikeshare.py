@@ -122,7 +122,7 @@ def user_stats(df):
             earliest_yob = df['Birth Year'].min()
             most_recent_yob = df['Birth Year'].max()
             most_common_yob = df['Birth Year'].mode()[0]
-            print('The earliest birth year is {}. The most recent birth year is {}. And the most common birth year is {}.'.format(earliest_yob, most_recent_yob, most_common_yob))
+            print('For this subset of data, birth years of users are between {} and {}. The most common birth year is {}.'.format(earliest_yob, most_recent_yob, most_common_yob))
             break
         else:
             break
